@@ -401,7 +401,7 @@ export default function Menu() {
 
                   <p>
                     Gusto ko lang malaman mo na palagi kitang kinakamusta sa paraang alam kong hindi mo masyadong napapansin,
-                    Ewan ko sobrang concern ko sayo, pero alam ko one day mapapansin mo yun, pag nakita mo yun masaya na ako dun promise.
+                    Ewan ko sobrang concern ko sayo, pero alam ko one day mapapansin mo yun and mababasa mo rin yun, pag nakita mo yun masaya na ako dun promise.
                     Ewan ko basta gusto ko lang na malaman mo na kahit anong mangyare, nandito lang ako. Kahit ilang beses ko pa to ulit-ulitin sabihin sayo.
                   </p>
 
