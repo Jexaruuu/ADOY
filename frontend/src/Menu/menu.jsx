@@ -411,9 +411,9 @@ export default function Menu() {
                   </p>
 
                   <p>
-                    Palagi kang mag iingat ha, kung gusto mo may paglabasan ng sama ng loob, andito lang ako ha, ung kailangan pwede mo ko murahin kung gusto mo,
+                    Kung gusto mo may paglabasan ng sama ng loob, andito lang ako ha, kung kailangan pwede mo ko murahin kung gusto mo,
                     para lang sa ikagagaan ng loob mo, basta kahit ano. Ayoko lang kasi maramdaman ko na hindi ka okay. Sana kahit na sa simpleng kamusta ko sa'yo ngayon
-                    naparamdam ko na totoo ako and napagaan ko feeling mo.
+                    naparamdam ko na totoo ako and napagaan ko feeling mo. Palagi kang mag iingat ha Adoy ha. Thankyou always!
                   </p>
                 </div>
 
