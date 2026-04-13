@@ -379,9 +379,9 @@ export default function Menu() {
                   </p>
 
                   <p>
-                   Ngayon feel ko na something bothering you, and I just want you to know na nandito lang ako, willing to listen anytime.
-                   Alam ko nasabi ko na sa'yo to ng ilang beses pero gusto ko lang ulitin, I care about you so much and I want to be there for you in any way I can.
-                   Lagi akong naka suporta sayo, kahit na sa malayo. Palagi ka kayang nasa isip ko 24/7, walang mintis.
+                    Ngayon feel ko na something bothering you, and I just want you to know na nandito lang ako, willing to listen anytime.
+                    Alam ko nasabi ko na sa'yo to ng ilang beses pero gusto ko lang ulitin, I care about you so much and I want to be there for you in any way I can.
+                    Lagi akong naka suporta sayo, kahit na sa malayo. Palagi ka kayang nasa isip ko 24/7, walang mintis.
                   </p>
 
                   <p>
@@ -390,17 +390,16 @@ export default function Menu() {
                     Ewan ko basta gusto ko lang na malaman mo na kahit anong mangyare, nandito lang ako. Kahit ilang beses ko pa to ulit-ulitin sabihin sayo.
                   </p>
 
-                    <p>
-                   Basta ang wish ko is sana hindi na sobrang ma sad si adoy, na pwede nyang iiyak lahat then sana pagtapos ng pagiyak ay mawawala na yung bigat.
-                   Adoy is always special to me, Hangad ko talaga na maging masaya ka, kahit na anong mangyari, kahit na hindi ako masyadong nakakapag usap sayo.
+                  <p>
+                    Basta ang wish ko is sana hindi na sobrang ma sad si adoy, na pwede nyang iiyak lahat then sana pagtapos ng pagiyak ay mawawala na yung bigat.
+                    Adoy is always special to me, Hangad ko talaga na maging masaya ka, kahit na anong mangyari, kahit na hindi ako masyadong nakakapag usap sayo.
                   </p>
 
                   <p>
-                    Palagi kang mag iingat ha, kung gusto mo may paglabasan ng sama ng loob, andito lang ako ha, kung kailangan pwede mo ko murahin kung gusto mo, 
+                    Palagi kang mag iingat ha, kung gusto mo may paglabasan ng sama ng loob, andito lang ako ha, ung kailangan pwede mo ko murahin kung gusto mo,
                     para lang sa ikagagaan ng loob mo, basta kahit ano. Ayoko lang kasi maramdaman ko na hindi ka okay. Sana kahit na sa simpleng kamusta ko sa'yo ngayon
                     naparamdam ko na totoo ako and napagaan ko feeling mo.
                   </p>
-
                 </div>
 
                 <div className="mt-10">
@@ -419,6 +418,12 @@ export default function Menu() {
                 <span className="text-xl text-blue-200/80">❤</span>
               </div>
             </div>
+          </div>
+
+          <div className="mt-4 flex justify-center">
+            <span className="rounded-full border border-white/15 bg-white/10 px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.35em] text-white/70 backdrop-blur-xl sm:text-xs">
+              jrgn.yd.lmdl
+            </span>
           </div>
         </div>
       </section>
