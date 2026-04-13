@@ -279,23 +279,38 @@ export default function Menu() {
             <div className="flex items-center gap-3 rounded-2xl border border-white/10 bg-[#10285f]/80 px-3 py-3 sm:px-4">
               <button
                 onClick={playPrevious}
-                className="flex h-11 w-11 items-center justify-center rounded-full border border-white/15 bg-white/10 text-lg text-white/90 transition hover:bg-white/20"
+                className="flex h-11 w-11 items-center justify-center rounded-full border border-white/15 bg-white/10 text-white/90 transition hover:bg-white/20"
               >
-                ⏮
+                <span className="relative flex h-4 w-4 items-center justify-center">
+                  <span className="absolute left-0 h-4 w-[2px] rounded-full bg-current" />
+                  <span className="ml-[3px] h-0 w-0 border-y-[6px] border-y-transparent border-r-[7px] border-r-current" />
+                  <span className="-ml-[2px] h-0 w-0 border-y-[6px] border-y-transparent border-r-[7px] border-r-current" />
+                </span>
               </button>
 
               <button
                 onClick={togglePlayPause}
-                className="flex h-12 w-12 items-center justify-center rounded-full border border-white/15 bg-white/15 text-xl text-white transition hover:bg-white/25"
+                className="flex h-12 w-12 items-center justify-center rounded-full border border-white/15 bg-white/15 text-white transition hover:bg-white/25"
               >
-                {isPlaying ? '⏸' : '▶'}
+                {isPlaying ? (
+                  <span className="flex items-center gap-[3px]">
+                    <span className="h-4 w-[3px] rounded-full bg-current" />
+                    <span className="h-4 w-[3px] rounded-full bg-current" />
+                  </span>
+                ) : (
+                  <span className="ml-[2px] h-0 w-0 border-y-[8px] border-y-transparent border-l-[12px] border-l-current" />
+                )}
               </button>
 
               <button
                 onClick={playNext}
-                className="flex h-11 w-11 items-center justify-center rounded-full border border-white/15 bg-white/10 text-lg text-white/90 transition hover:bg-white/20"
+                className="flex h-11 w-11 items-center justify-center rounded-full border border-white/15 bg-white/10 text-white/90 transition hover:bg-white/20"
               >
-                ⏭
+                <span className="relative flex h-4 w-4 items-center justify-center">
+                  <span className="h-0 w-0 border-y-[6px] border-y-transparent border-l-[7px] border-l-current" />
+                  <span className="-ml-[2px] h-0 w-0 border-y-[6px] border-y-transparent border-l-[7px] border-l-current" />
+                  <span className="absolute right-0 h-4 w-[2px] rounded-full bg-current" />
+                </span>
               </button>
 
               <div className="min-w-0 flex-1">
