@@ -3,16 +3,11 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 const words = ['JERGEN', 'ADOY', 'YODA', 'AILA MEDEL']
 
 const tracks = [
-  { title: 'Kahel Na Langit', src: '/kahelnalangit.mp3' },
-  { title: 'Love Song 2', src: '/music/love-song-2.mp3' },
-  { title: 'Love Song 3', src: '/music/love-song-3.mp3' },
-  { title: 'Love Song 4', src: '/music/love-song-4.mp3' },
-  { title: 'Love Song 5', src: '/music/love-song-5.mp3' },
-  { title: 'Love Song 6', src: '/music/love-song-6.mp3' },
-  { title: 'Love Song 7', src: '/music/love-song-7.mp3' },
-  { title: 'Love Song 8', src: '/music/love-song-8.mp3' },
-  { title: 'Love Song 9', src: '/music/love-song-9.mp3' },
-  { title: 'Love Song 10', src: '/music/love-song-10.mp3' }
+  { title: 'Kahel Na Langit', src: '/kahelnalangit.mp3', image: '/kahelnalangit.jpg' },
+  { title: 'Anything 4 U', src: '/anything4u.mp3', image: '/anything4u.jpg' },
+  { title: 'ILYSB', src: '/ilysb.mp3', image: '/ilysb.jpg' },
+  { title: 'Stuck', src: '/stuck.mp3', image: '/stuck.jpg' },
+  { title: 'Pink Skies', src: '/pinkskies.mp3', image: '/pinkskies.jpg' }
 ]
 
 export default function Menu() {
@@ -258,7 +253,7 @@ export default function Menu() {
             Here for you, always.
           </p>
 
-          <div className="mt-8 w-full max-w-2xl px-5 py-5  sm:px-6">
+          <div className="mt-8 w-full max-w-2xl px-5 py-5 sm:px-6">
             <div className="mb-3 flex items-center justify-between gap-4">
               <div className="text-left">
                 <p className="text-[10px] font-semibold uppercase tracking-[0.35em] text-white/60">
@@ -272,8 +267,12 @@ export default function Menu() {
                 </p>
               </div>
 
-              <div className="hidden h-12 w-12 items-center justify-center rounded-full bg-white/10 text-lg shadow-[0_0_25px_rgba(96,165,250,0.25)] sm:flex">
-                🎵
+              <div className="hidden h-12 w-12 overflow-hidden rounded-full bg-white/10 shadow-[0_0_25px_rgba(96,165,250,0.25)] sm:flex">
+                <img
+                  src={tracks[trackIndex].image}
+                  alt={tracks[trackIndex].title}
+                  className="h-full w-full object-cover"
+                />
               </div>
             </div>
 
@@ -367,38 +366,41 @@ export default function Menu() {
 
                 <div className="space-y-6 text-[15px] leading-8 text-white/80 sm:text-base sm:leading-9">
                   <p>
-                    Hello Adoy, alam ko wala namang okasyon or any special sa araw ngayon,
-                    gusto ko lang na kamustahin ka and 
-                    felt that words seem too small to carry them. This is my attempt,
-                    anyway.
+                    Hello Adoy, alam ko it's just a random day, wala namang okasyon or any special sa araw ngayon,
+                    gusto ko lang na kamustahin ka at damayan ka sa kung ano man nararamdaman mo ngayon.
+                    Gusto ko iparamdam sayo hindi ikaw nag iisa, gusto kong ipakita sa'yo na nandito
+                    parin ako.
                   </p>
 
                   <p>
-                    I think about the way you smile when something genuinely makes you
-                    happy, how it reaches your eyes before it even reaches your lips.
-                    I think about how much lighter everything feels when you are
-                    around. I think about how I never want to stop learning who you
-                    are.
+                    Alam ko na this past days, weeks, months, hindi ako masyadong ramdam or like naging distant.
+                    Pero hindi yun dahil sayo, actually kung alam mo lang kung gaano ko ka gustong kausapin or i chat ka ng madalas,
+                    pero para sakin talaga mas mahalaga yung peace of mind mo and feel ko kasi nakaka storbo talaga ko tska nahihiya ako.
                   </p>
 
                   <p>
-                    You are not just someone I care about. You are the reason I want
-                    to be better, kinder, more present. You are the person I look for
-                    in a crowded room. You are the first thought I have in the
-                    morning and the warmest one I carry through the day.
+                   Ngayon feel ko na something bothering you, and I just want you to know na nandito lang ako, willing to listen anytime.
+                   Alam ko nasabi ko na sa'yo to ng ilang beses pero gusto ko lang ulitin, I care about you so much and I want to be there for you in any way I can.
+                   Lagi akong naka suporta sayo, kahit na sa malayo. Palagi ka kayang nasa isip ko 24/7, walang mintis.
                   </p>
 
                   <p>
-                    Loving you feels gentle and certain at the same time. It feels
-                    like home. And even if I never find the perfect way to say all of
-                    it, I hope this letter lets you know that what I feel for you is
-                    real, deep, and endlessly sincere.
+                    Gusto ko lang malaman mo na palagi kitang kinakamusta sa paraang alam kong hindi mo masyadong napapansin,
+                    Ewan ko sobrang concern ko sayo, pero alam ko one day mapapansin mo yun, pag nakita mo yun masaya na ako dun promise.
+                    Ewan ko basta gusto ko lang na malaman mo na kahit anong mangyare, nandito lang ako. Kahit ilang beses ko pa to ulit-ulitin sabihin sayo.
+                  </p>
+
+                    <p>
+                   Basta ang wish ko is sana hindi na sobrang ma sad si adoy, na pwede nyang iiyak lahat then sana pagtapos ng pagiyak ay mawawala na yung bigat.
+                   Adoy is always special to me, Hangad ko talaga na maging masaya ka, kahit na anong mangyari, kahit na hindi ako masyadong nakakapag usap sayo.
                   </p>
 
                   <p>
-                    In every quiet moment, in every small beautiful thing, somehow I
-                    find you there.
+                    Palagi kang mag iingat ha, kung gusto mo may paglabasan ng sama ng loob, andito lang ako ha, kung kailangan pwede mo ko murahin kung gusto mo, 
+                    para lang sa ikagagaan ng loob mo, basta kahit ano. Ayoko lang kasi maramdaman ko na hindi ka okay. Sana kahit na sa simpleng kamusta ko sa'yo ngayon
+                    naparamdam ko na totoo ako and napagaan ko feeling mo.
                   </p>
+
                 </div>
 
                 <div className="mt-10">
@@ -407,7 +409,7 @@ export default function Menu() {
                     Forever yours,
                   </p>
                   <p className="mt-2 text-2xl font-semibold tracking-wide text-pink-100">
-                    Jergen
+                    Jexy
                   </p>
                 </div>
               </div>
