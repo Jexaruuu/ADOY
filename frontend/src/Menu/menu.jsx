@@ -389,8 +389,8 @@ export default function Menu() {
 
                   <p>
                     Alam ko na this past days, weeks, months, hindi ako masyadong ramdam or like naging distant.
-                    Pero hindi yun dahil sayo, actually kung alam mo lang kung gaano ko ka gustong kausapin or i chat ka ng madalas,
-                    pero para sakin talaga mas mahalaga yung peace of mind mo and feel ko kasi nakaka storbo talaga ko tska nahihiya ako.
+                    May mga something happens lang but okay lang, actually kung alam mo lang kung gaano ko ka gustong kausapin or i chat ka palagi,
+                    pero para sakin talaga mas mahalaga yung peace of mind and me time mo, feel ko kasi nakaka storbo talaga ko tska nahihiya ako.
                   </p>
 
                   <p>
